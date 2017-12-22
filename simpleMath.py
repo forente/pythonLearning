@@ -1,0 +1,12 @@
+num1 =  input("What is the first Number? ")
+num2 =  input("What is the Second Number? ")
+
+sum = int(num1) + int (num2)
+difference = int(num1) - int(num2)
+product = int(num1) * int(num2)
+quotient = int(num1) / int(num2)
+print("")
+print(num1 + "+" + num2 + "=" + str(sum))
+print(num1 + "-" + num2 + "=" + str(difference))
+print(num1 + "*" + num2 + "=" +str(product))
+print(num1 + "/" + num2 + "=" +str(quotient))
